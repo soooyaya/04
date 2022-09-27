@@ -9,7 +9,9 @@ int main(int argc, char *argv[]) {
 	printf("input the year : ");
 	scanf("%i", &x);
 	
-	if (x%4 == 0 && x%100!=0 || x%400 == 0)
+	if ( (x%4 == 0 && x%100!=0) || 
+	x%400 == 0
+	)
 	 printf("%i is the leap year!\n", x);
 	
 	else
