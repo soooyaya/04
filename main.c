@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
 	printf("input the second");
 	scanf("%i", &x);
 	
-	printf ("the time is %d : %d", x/60, x%60);
+	printf ("%i second is %i : %i\n", x, x/60, x%60);
 	 
 	return 0;
 }
